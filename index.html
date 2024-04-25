@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Workit landing page</title>
+</head>
+<body class="font-fraunces">
+  <header class="relative mx-auto w-375 md:w-768 lg:w-1440 text-center text-off-white z-20 bg-dark-purple rounded-mobile md:rounded-tablet lg:rounded-desktop h-[475px] md:h-[540px] lg:h-[730px] overflow-x-clip">
+    <!-- Logo/Apply -->
+    <div class="p-5 flex justify-between w-375 md:w-768 md:px-12 lg:w-1440 lg:px-40">  
+      <img src="./assets/images/logo-light.svg" alt="Work-it logo" width="96px" class="inline">
+      <a href="" class="font-manrope underline decoration-green decoration-2 underline-offset-8 text-base hover:text-green">Apply for access</a>
+    </div>
+    <!-- Intro, learn more, hero image -->
+    <img src="./assets/images/bg-pattern-1.svg" alt="" class="absolute invisible md:visible -left-52 lg:-left-32">
+    <div class="mx-auto relative w-[343px] md:w-[450px] lg:w-[635px]">
+      <h1 class="text-xl pt-9 pb-14 mx-auto md:text-2xl lg:text-3xl lg:font-normal">Data <span class="underline decoration-green decoration-[3px] underline-offset-8 lg:decoration-4">tailored</span> to your needs.</h1>
+      <a href="" class="px-4 py-3 lg:px-8 font-manrope text-sm font-bold text-dark-purple bg-green hover:text-green hover:bg-dark-purple hover:border-2 hover:border-green">Learn more</a>
+    </div>
+    <img src="./assets/images/bg-pattern-2.svg" alt="" class="absolute invisible md:visible -right-24 bottom-32 lg:-right-11 lg:bottom-64">
+    <img src="./assets/images/image-hero.webp" class="w-[320px] md:w-[514px] lg:w-[767px] h-auto mx-auto translate-x-5 translate-y-16">
+  </header>
+  <main class="relative mx-auto w-375 md:w-768 lg:w-1440 -translate-y-32 z-0 ">
+    <div class="columns-1 lg:columns-3 bg-off-white pt-52 md:pt-60 lg:pt-80 pb-20 rounded-mobile md:rounded-tablet lg:rounded-desktop lg:pb-36">
+      <div class="flex text-center flex-col pt-10 md:pt-0 md:flex-row md:text-left md:content-center lg:flex-col lg:align-middle lg:text-center">
+        <div class="mx-auto md:content-center md:mx-0 md:p-8 md:justify-start lg:mx-auto">
+          <h1 class="text-center text-md border-solid rounded-full border w-[50px] h-[50px] content-center">1</h1>
+        </div>
+        <div class="py-6 px-4 md:w-3/4 lg:mx-auto lg:py-0">
+          <h1 class="text-md md:py-4">Actionable insights</h1>
+          <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+        </div>
+      </div>
+      <div class="flex text-center flex-col md:flex-row md:text-left md:content-center lg:flex-col lg:text-center">
+        <div class="mx-auto md:content-center md:mx-0 md:p-8 md:justify-start lg:mx-auto">
+          <h1 class="text-center text-md border-solid rounded-full border w-[50px] h-[50px] content-center">2</h1>
+        </div>
+        <div class="py-6 px-4 md:w-3/4 lg:mx-auto lg:py-0">
+          <h1 class="text-md md:py-4">Data-driven decisions</h1>
+          <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+        </div>
+      </div>
+      <div class="flex text-center flex-col md:flex-row md:text-left md:content-center lg:flex-col lg:text-center">
+        <div class="mx-auto md:content-center md:mx-0 md:p-8 md:justify-start lg:mx-auto">
+          <h1 class="text-center text-md border-solid rounded-full border w-[50px] h-[50px] content-center">3</h1>
+        </div>
+        <div class="py-6 px-4 md:w-3/4 lg:mx-auto lg:py-0">
+          <h1 class="text-md md:py-4">Always affordable</h1>
+          <p>Always affordable pricing that scales with your business. Get top-quality product data 
+          analytics services without hidden costs or unexpected fees.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Founder image, lower CTA -->
+    <div class="pt-16 md:pt-10 relative h-[750px] md:h-[550px]">
+      <div class="z-0">
+        <img src="./assets/images/image-founder.webp" alt="founder portrait" class="w-[281px] mx-auto translate-y-14 md:left-0 md:ml-8 lg:w-[450px] lg:ml-32">
+      </div>
+      <div class="z-10 bg-dark-purple text-off-white text-center absolute pb-12 md:w-[514px] md:text-left md:right-0 md:-translate-y-20 md:p-6 md:pb-14 md:mr-8 lg:w-[800px] lg:-translate-y-56 lg:mr-32 lg:p-14"> 
+        <h1 class="text-md p-8 md:text-lg md:p-4 lg:text-xl">Be the first to test</h1>
+        <p class="font-manrope p-7 text-base md:text-sm md:p-4 md:mb-4 lg:py-6">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
+        <a href="" class="px-4 py-3 md:m-4 md:px-4 font-manrope text-sm font-bold text-dark-purple bg-green hover:text-green hover:bg-dark-purple hover:border-2 hover:border-green">Apply for access</a>
+        <img src="./assets/images/bg-pattern-3.svg" alt="" class="absolute invisible md:visible right-2 -bottom-24 lg:right-10 lg:-bottom-16">
+      </div>
+    </div>
+  </main>
+  <footer class="mx-auto w-375 md:w-768 lg:w-1440 text-center lg:pt-6">
+    <a href=""><img src="./assets/images/logo-dark.svg" alt="work-it logo" class="inline pb-12"></a>
+    <div class="socials">
+      <a href=""><img src="./assets/images/icon-facebook.svg" alt="facebook icon" class="inline p-5"></a>
+      <a href=""><img src="assets/images/icon-twitter.svg" alt="twitter icon" class="inline p-5"></a>
+      <a href=""><img src="./assets/images/icon-instagram.svg" alt="instagram icon" class="inline p-5"></a>
+    </div>
+  </footer>
+</body>
+</html>
